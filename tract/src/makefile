@@ -24,7 +24,7 @@ MATHDIR = ../../math/src
 CC      = gcc -std=c99
 # CC      = g++
 CFBASE  = -Wall -Wextra -Wno-unused-parameter -Wconversion \
-          -Wimplicit-fallthrough=0 -pedantic -c $(ADDFLAGS)
+          -pedantic -c $(ADDFLAGS)
 CFLAGS  = $(CFBASE) -DNDEBUG -O3 -funroll-loops
 # CFLAGS  = $(CFBASE) -DNDEBUG -O3 -funroll-loops -DALIGN8
 # CFLAGS  = $(CFBASE) -g
